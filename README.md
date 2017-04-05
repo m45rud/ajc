@@ -1,4 +1,3 @@
-# ajc
 Aplikasi sederhana jasa cuci kendaraan dengan PHP MySQLi.
 ---
 Fitur:

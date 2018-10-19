@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 19, 2018 at 09:28 AM
+-- Generation Time: Oct 19, 2018 at 10:02 AM
 -- Server version: 5.7.23-0ubuntu0.16.04.1
 -- PHP Version: 7.0.32-2+ubuntu16.04.1+deb.sury.org+1
 
@@ -37,8 +37,8 @@ CREATE TABLE `biaya` (
 --
 
 INSERT INTO `biaya` (`id_biaya`, `jenis`, `biaya`) VALUES
-(2, 'Sepeda Motor', 76576576),
-(5, 'Mobil', 2147483647);
+(2, 'Sepeda Motor', 10000),
+(5, 'Mobil', 25000);
 
 -- --------------------------------------------------------
 
@@ -57,17 +57,6 @@ CREATE TABLE `transaksi` (
   `tanggal` date NOT NULL,
   `id_user` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `transaksi`
---
-
-INSERT INTO `transaksi` (`id_transaksi`, `no_nota`, `jenis`, `nama`, `bayar`, `kembali`, `total`, `tanggal`, `id_user`) VALUES
-(56, 'C019', 'Sepeda Motor', 'hfghfhg', 564654564, 0, 0, '2016-08-09', 1),
-(58, 'C021', 'Sepeda Motor', 'ghjgj', 0, 0, 0, '2016-08-09', 1),
-(59, 'C022', 'Sepeda', 'saya', 50000, 25000, 25000, '2016-08-09', 1),
-(61, 'C024', 'Mobil', '56465', 656456, 456, 4564, '2016-08-09', 1),
-(62, 'C025', 'Mobil', '43', 5, 5, 5, '2016-08-09', 1);
 
 -- --------------------------------------------------------
 

@@ -1,11 +1,11 @@
 <?php
     $host = "localhost";
     $username = "root";
-    $password = "root";
+    $password = "masrud.com";
     $database = "ajc";
     $koneksi = mysqli_connect($host, $username, $password, $database);
 
-    if(!$koneksi){
+    if (! $koneksi) {
         die("Koneksi database gagal: " . mysqli_connect_error());
     }
 ?>

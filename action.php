@@ -3,7 +3,7 @@
   if(!empty($_POST["jenis"])){
 
     /* RE-ESTABLISH YOUR CONNECTION */
-    $con = new mysqli("localhost", "root", "", "jasacuci");
+    $con = new mysqli("localhost", "root", "masrud.com", "ajc");
 
     /* CHECK CONNECTION */
     if (mysqli_connect_errno()) {
@@ -12,7 +12,7 @@
     }
 
     /* PREPARE YOUR QUERY */
-    $stmt = $con->prepare("SELECT biaya FROM biaya WHERE id_biaya = ?");
+    $stmt = $con->prepare("SELECT  FROM biaya WHERE id_biaya = ?");
     $stmt->bind_param("i", $_POST["id_biaya"]); /* PARAMETIZE THIS VARIABLE TO YOUR QUERY */
     $stmt->execute(); /* EXECUTE QUERY */
     $stmt->bind_result($biaya); /* BIND THE RESULTS TO THESE VARIABLES */

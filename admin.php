@@ -23,6 +23,9 @@ if( empty( $_SESSION['id_user'] ) ){
     <link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/jquery-ui.min.css" rel="stylesheet">
 
+    <script src="js/jquery.min.js"></script>
+
+
 	<style type="text/css">
 	body {
 	  min-height: 200px;
@@ -94,7 +97,6 @@ if( empty( $_SESSION['id_user'] ) ){
 
 
     <!-- Bootstrap core JavaScript, Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
 

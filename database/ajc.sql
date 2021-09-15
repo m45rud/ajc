@@ -79,7 +79,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `username`, `password`, `nama`, `alamat`, `hp`, `level`) VALUES
-(1, 'masrud', '7d05dc02abe9cda729d0c798c886db47', 'M. Rudianto', 'Ds. Bareng, Kec. Sawahan Kab. Nganjuk - Jawa Timur', '085735501035', 1);
+(1, 'masrud', '7d05dc02abe9cda729d0c798c886db47', 'Rudi', 'Sawahan, Nganjuk, Jawa Timur', '085232900000', 1);
 
 --
 -- Indexes for dumped tables

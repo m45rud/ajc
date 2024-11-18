@@ -6,4 +6,4 @@ Fitur:
 - Cetak Nota
 - Laporan
 
-Ini adalah source code dari [https://masrud.com/aplikasi-cuci-mobil-motor-php-mysqli/](https://masrud.com/aplikasi-cuci-mobil-motor-php-mysqli/?utm_source=github.com&utm_medium=about&utm_campaign=ajc)
+Ini adalah source code dari [https://masrud.com/aplikasi-cuci-mobil-motor-php-mysqli/](https://masrud.com/aplikasi-cuci-mobil-motor-php-mysqli/?utm_source=github.com&utm_medium=readme.md&utm_campaign=ajc)
